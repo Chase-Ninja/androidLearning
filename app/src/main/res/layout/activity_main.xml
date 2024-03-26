@@ -8,6 +8,17 @@
     android:orientation="vertical"
     android:gravity="center">
 
+    <EditText
+        android:id="@+id/EditingId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:hint="Write something"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"/>
 
 
 </LinearLayout>
